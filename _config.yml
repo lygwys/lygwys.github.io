@@ -10,10 +10,10 @@ locale                   : "zh-CN"
 title                    : "LYGWYS / 个人博客"
 title_separator          : "-"
 name                     : &name "LYGWYS"
-description              : &description "爱好信息技术的教育工作者"
+description              : &description "一位爱好信息技术的教育工作者"
 url                      : https://lygwys.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "lygwys/lygwys.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "YongShan Wang"
   avatar           : "profile.png"
-  bio              : "一个爱好信息技术的教育工作者"
+  bio              : "一位爱好信息技术的教育工作者"
   location         : "Location"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
