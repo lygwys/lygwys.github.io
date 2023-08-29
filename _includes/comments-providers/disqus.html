@@ -20,8 +20,3 @@
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
-
-<!-- Google tag (gtag.js) 插入 google 统计-->
-{% if site.analytics.google.tracking_id %}
-<script async src="https://www.googletagmanager.com/gtag/js?id='{{ site.analytics.google.tracking_id }}'"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '{{ site.analytics.google.tracking_id }}'); </script>
-{% endif %}
