@@ -1,5 +1,8 @@
 <!-- start custom footer snippets -->
 <a href="/sitemap/">Sitemap</a>
-<!-- end custom footer snippets -->
 
-<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-P1PHNPQSBH"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-P1PHNPQSBH'); </script>
+<!-- Google tag (gtag.js) 插入 google 统计-->
+{% if site.analytics.google.tracking_id %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id='{{ site.analytics.google.tracking_id }}'"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '{{ site.analytics.google.tracking_id }}'); </script>
+{% endif %}
+<!-- end custom footer snippets -->
