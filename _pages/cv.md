@@ -6,54 +6,27 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
 {% include base_path %}
+教育
+======
+* 中师，江苏省海州师范学校 普师专业, 1988年
+* 大专, 江苏省委党校 行政管理专业，1993年
+* 本科, 中央党校干部函授学校 经济专业，1995年
+工作经验
+======
+* 1988-2021: 小学科学教师
+  * 1993年 辅导学生获得全国“科学少年”北戴河夏令营知识竞赛一等奖”
+  * 职责包括: 辅导老师
+* 2017: 开发灌云县教育局门户网站
+  * 职责包括：整体架构、管理维护
+* 2019: 开发灌云县教师发展中心网站
+  * 职责包括：整体架构、管理维护
+技能
+======
+* .NET Core
+* 无线电
 
-Education
+曾获荣誉
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 江苏省优秀教育工作者，1995年
+* 连云港市劳动模范，1997年

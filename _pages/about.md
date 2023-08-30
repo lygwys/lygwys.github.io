@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: " 好东西就要分享给大家 "
+title: " 分享是件快乐的事 "
 excerpt: "YongShan Wang"
 author_profile: true
 redirect_from:
@@ -9,13 +9,15 @@ redirect_from:
 ---
 
 
-
 这是由[学术页面模板 academicpages](https://github.com/academicpages/academicpages.github.io) 提供支持并托管在 GitHub Pages 服务上的网站首页。
 
-分享内容
+
+栏目说明
 ======
-文章栏发布一些自己的信息化学习心得，项目栏中分享部分学习作品。
+
+文章栏存放一些自己的学习心得，项目栏存放学习过程中完成的项目作品。
 
 特色项目介绍
 ======
-[免费的学术型博客系统](https://github.com/lygwys/lygwys.github.io)  [详细介绍](/posts/2023/08/blog-post-mianfei xueshu blog dajian/)
+
+[免费的学术型博客](https://github.com/lygwys/lygwys.github.io)  [详细介绍](/posts/2023/08/blog-post-mianfei xueshu blog dajian/)
