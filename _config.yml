@@ -30,6 +30,14 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+  gitalk: true
+  gitalk_clientID: '359f7ca7c729fcafebc9'
+  gitalk_Secret: '90435a9cdd0b91e1708a1f0da7130c0bc6572aa1'
+  gitalk_repo: 'lygwys.github.io'
+  gitalk_owner: 'lygwys'
+  gitalk_admin: 'lygwys'
+  distractionFreeMode: false
+
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"

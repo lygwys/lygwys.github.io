@@ -5,4 +5,24 @@
 {% if site.analytics.google.tracking_id %}
   <script async src="https://www.googletagmanager.com/gtag/js?id='{{ site.analytics.google.tracking_id }}'"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '{{ site.analytics.google.tracking_id }}'); </script>
 {% endif %}
+
+
+
+<!-- 插入 gitalk 2 脚本-->
+{% if site.comments.gitalk %}
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '{{ site.comments.gitalk_clientID }}',
+    clientSecret: '{{ site.comments.gitalk_Secret }}',
+    repo: '{{ site.comments.gitalk_repo }}',
+    owner: '{{ site.comments.gitalk_owner }}',
+    admin: '{{ site.comments.gitalk_admin }}',
+    id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
+    distractionFreeMode: '{{ site.comments.distractionFreeMode }}',
+  });
+
+  gitalk.render('gitalk-container');
+</script>
+{% endif %}
 <!-- end custom footer snippets -->
