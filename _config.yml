@@ -90,12 +90,12 @@ analytics:
 author:
   name             : "YongShan Wang"
   avatar           : "profile.png"
-  bio              : "一位爱好信息技术的教育工作者"
-  location         : "Location"
+  bio              : "爱好信息技术的教育工作者"
+  location         : "连云港"
   employer         :
   pubmed           :
   googlescholar    :
-  email            :
+  email            : "lygwys@outlook.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
