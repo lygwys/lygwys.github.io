@@ -17,7 +17,16 @@ redirect_from:
 
 文章栏存放一些自己的学习心得，项目栏存放学习过程中完成的项目作品。
 
-特色项目介绍
+特色项目
 ======
 
-[免费的学术型博客](https://github.com/lygwys/lygwys.github.io)  [详细介绍](/posts/2023/08/blog-post-mianfei xueshu blog dajian/)
+
+| 项目名称 | 项目库 | 项目介绍 |
+|:--------|:-------:|--------:|
+| 免费的学术型博客   | [github](https://github.com/lygwys/lygwys.github.io)   | [详细](/posts/2023/08/blog-post-mianfei xueshu blog dajian/)   |
+|    |    |    |
+|-----------------------------|
+|    |    |    |
+|    |    |    |
+|=============================|
+|    |    |    |
