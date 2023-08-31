@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-此博客由[学术页面模板 academicpages](https://github.com/academicpages/academicpages.github.io) 提供支持并托管在 GitHub Pages 服务上。
+此博客由[ academicpages](https://github.com/academicpages/academicpages.github.io) 提供支持并托管在 GitHub Pages 服务上。
 
 
 栏目说明
@@ -23,7 +23,7 @@ redirect_from:
 
 | 项目名称 | 项目库 | 项目介绍 |
 |:--------|:-------:|--------:|
-| 免费的学术型博客   | [github](https://github.com/lygwys/lygwys.github.io)   | [详细](/posts/2023/08/blog-post-mianfei xueshu blog dajian/)   |
+| 学术型博客   | [github](https://github.com/lygwys/lygwys.github.io)   | [详细](/posts/2023/08/blog-post-mianfei xueshu blog dajian/)   |
 |    |    |    |
 |-----------------------------|
 |    |    |    |
