@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: " 分享是件快乐的事 "
+title: " Lygwys's Blog "
 excerpt: "YongShan Wang"
 author_profile: true
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-这是由[学术页面模板 academicpages](https://github.com/academicpages/academicpages.github.io) 提供支持并托管在 GitHub Pages 服务上的网站首页。
+此博客由[学术页面模板 academicpages](https://github.com/academicpages/academicpages.github.io) 提供支持并托管在 GitHub Pages 服务上。
 
 
 栏目说明
