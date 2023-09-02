@@ -1,6 +1,8 @@
 {% include base_path %}
 
-<section class="page__share">
+<section class="page__share" style="display:block; text-align: center">
+
+<!--
   {% if site.data.ui-text[site.locale].share_on_label %}
     <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}</h4>
   {% endif %}
@@ -10,4 +12,23 @@
   <a href="https://www.facebook.com/sharer/sharer.php?u={{ base_path }}{{ page.url }}" class="btn btn--facebook" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
   <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ base_path }}{{ page.url }}" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+-->
+
+
+  <div class="social-share"></div>
+  <!--  css & js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+  <script>
+      var $config = {
+          url                 : '{{ base_path }}{{ page.url }}',
+          source              : '{{ base_path }}{{ page.url }}',
+          title               : '{{ site.data.ui-text[site.locale].share_on_label  }}',
+          sites               : ['wechat', 'weibo', 'douban', 'twitter'],
+          wechatQrcodeTitle: "分享到微信朋友圈",
+          wechatQrcodeHelper: '<p>扫码后点击右上角</p><p>将本文分享至朋友圈</p>'
+      };
+      socialShare('.social-share', $config);
+  </script>
+
 </section>
