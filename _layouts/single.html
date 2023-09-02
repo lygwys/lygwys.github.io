@@ -95,7 +95,6 @@ layout: default
 <!-- 插入 gitalk 3 脚本-->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/iyume/static/hexo-blog/md5.min.js"></script>
 <script type="text/javascript">
       var gitalk = new Gitalk({
         clientID: '359f7ca7c729fcafebc9',
@@ -103,7 +102,7 @@ layout: default
         repo: 'lygwys.github.io',
         owner: 'lygwys',
         admin: ['lygwys'],
-        id: md5(location.pathname),
+        id: location.pathname,
         distractionFreeMode: false
       })
       gitalk.render('gitalk-container')
