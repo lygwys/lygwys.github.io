@@ -74,7 +74,9 @@ layout: default
     {% endif %}
 
     <!--添加 gitalk 容器-->
+    {% if site.comments.gitalk %}
       <div id="gitalk-container"></div>
+    {% endif %}
 
   </article>
 
@@ -92,20 +94,21 @@ layout: default
     </div>
   {% endif %}
 </div>
-<!-- 插入 gitalk 4 脚本 本地预览 Gitalk comments 不可用-->
+<!-- 插入 gitalk 5 脚本 Gitalk comments  本地预览不可用\ MD5 加密 id\配置到_config.yml-->
+
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <script src="https://rawgit.com/qhh0205/78e9e0b1f3114db6737f3ed8cdd51d3a/raw/3894c5be5aa2378336b1f5ee0f296fa0b22d06e9/md5.min.js"></script>
 <script type="text/javascript">
       const gitalk = new Gitalk({
-        clientID: '359f7ca7c729fcafebc9',
-        clientSecret: '90435a9cdd0b91e1708a1f0da7130c0bc6572aa1',
-        repo: 'lygwys.github.io',
-        owner: 'lygwys',
-        admin: ['lygwys'],
+        clientID: '{{ site.comments.gitalk_clientID }}',
+        clientSecret: '{{ site.comments.gitalk_Secret }}',
+        repo: '{{ site.comments.gitalk_repo }}',
+        owner: '{{ site.comments.gitalk_owner }}',
+        admin: '{{ site.comments.gitalk_admin }}',
         id: md5(location.pathname),
-        createIssueManually: true,
-        distractionFreeMode: false
+        createIssueManually: '{{ site.comments.createIssueManually }}',
+        distractionFreeMode: '{{ site.comments.distractionFreeMode }}'
       });
       (function() {
         if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {

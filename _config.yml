@@ -36,6 +36,7 @@ comments:
   gitalk_repo: 'lygwys.github.io'
   gitalk_owner: 'lygwys'
   gitalk_admin: 'lygwys'
+  createIssueManually: true
   distractionFreeMode: false
 
 staticman:
