@@ -95,6 +95,7 @@ layout: default
 <!-- 插入 gitalk 4 脚本 本地预览 Gitalk comments 不可用-->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="https://rawgit.com/qhh0205/78e9e0b1f3114db6737f3ed8cdd51d3a/raw/3894c5be5aa2378336b1f5ee0f296fa0b22d06e9/md5.min.js"></script>
 <script type="text/javascript">
       const gitalk = new Gitalk({
         clientID: '359f7ca7c729fcafebc9',
@@ -102,7 +103,7 @@ layout: default
         repo: 'lygwys.github.io',
         owner: 'lygwys',
         admin: ['lygwys'],
-        id: location.pathname,
+        id: md5(location.pathname),
         createIssueManually: true,
         distractionFreeMode: false
       });
