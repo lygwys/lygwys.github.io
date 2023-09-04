@@ -16,7 +16,7 @@ tags:
 </td></tr></table>
 
 
-![](https://raw.githubusercontent.com/lygwys/images/main/lygwys.github.io/%E6%88%91%E4%BB%AC%E4%B8%8A%E5%AD%A6%E4%BA%86%E7%B3%96%E7%B3%96_20230831101716.jpg)
+[![pPrG6vq.md.jpg](https://s1.ax1x.com/2023/09/04/pPrG6vq.md.jpg)](https://imgse.com/i/pPrG6vq)
 
 
-![](https://raw.githubusercontent.com/lygwys/images/main/lygwys.github.io/%E6%88%91%E4%BB%AC%E4%B8%8A%E5%AD%A6%E4%BA%86%E6%9D%BE%E6%9D%BE_20230831101749.jpg)
+[![pPrGRbT.jpg](https://s1.ax1x.com/2023/09/04/pPrGRbT.jpg)](https://imgse.com/i/pPrGRbT)
