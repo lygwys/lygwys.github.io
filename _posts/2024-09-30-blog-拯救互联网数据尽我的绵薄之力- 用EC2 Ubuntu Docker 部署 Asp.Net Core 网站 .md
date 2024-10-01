@@ -48,6 +48,8 @@ sudo sh get-docker.sh
 使用镜像
 ======
 这可是重头戏，要费些功夫。
+
+
 1.制作镜像
 在要发布的网站文件根目录下新建 Dockerfile 文件，内容如下：
 
@@ -123,7 +125,6 @@ docker tag 7a8c8ffd35dc lygwys/gyxjsfzzx:v3.1
 在 ec2 ubuntu 24.04 的 docker 中运行镜像:
 
 ``````
-sudo docker pull lygwys/gyxjsfzzx:v3.1
 docker run -d -p 8001:80 --name jsfzzx  lygwys/gyxjsfzzx:v3.1
 ``````
 
@@ -133,7 +134,6 @@ docker run -d -p 8001:80 --name jsfzzx  lygwys/gyxjsfzzx:v3.1
 ### 终于看到了消失整整3年的老朋友了！
 
 [![pA3ShZR.md.png](https://s21.ax1x.com/2024/09/30/pA3ShZR.md.png)](https://imgse.com/i/pA3ShZR)
-
 
 
 坑
