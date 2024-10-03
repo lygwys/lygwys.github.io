@@ -8,6 +8,11 @@ tags:
   - Ubuntu
   - Docker
   - Asp.Net Core
+  - 网站
+  - 免费
+  - 博客
+  - 原创
+  - 静态
 ---
 
 
