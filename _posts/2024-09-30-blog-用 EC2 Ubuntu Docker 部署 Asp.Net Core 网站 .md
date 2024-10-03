@@ -1,5 +1,5 @@
 ---
-title: 用 EC2 Ubuntu Docker 部署 Asp.Net Core 网站'
+title: 用 EC2 Ubuntu Docker 部署 Asp.Net Core 网站
 excerpt: "明天就国庆节了。<br/><img src='https://s21.ax1x.com/2024/09/30/pA3ShZR.md.png'>"
 date: 2024-09-30
 permalink: /posts/2024/09/blog-post-mianfei xueshu blog EC2 Ubuntu Docker/
@@ -21,9 +21,7 @@ tags:
 
 EC2 实例
 ======
-使用最新免费版本 Ubuntu 24.04
-实例提供了一个公网 IP
-默认安全组开放端口 22 以提供 SSH 连结，还默认开放了 80、443 端口，供已备案的网站使用。
+使用最新免费版本 Ubuntu 24.04，实例提供了一个公网 IP，默认安全组开放端口 22 以提供 SSH 连结，还默认开放了 80、443 端口，供已备案的网站使用。
 
 因为不使用域名，所以在安全组入站规则中添加端口 8001/TCP 以 8001 端口公开第一个网站。
 
@@ -49,7 +47,7 @@ sudo sh get-docker.sh
 ======
 这可是重头戏，要费些功夫。
 
-                         
+
 1.制作镜像
 在要发布的网站文件根目录下新建 Dockerfile 文件，内容如下：
 
