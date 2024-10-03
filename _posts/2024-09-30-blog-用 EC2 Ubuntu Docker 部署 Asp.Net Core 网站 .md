@@ -1,5 +1,5 @@
 ---
-title: '拯救互联网数据尽我绵薄之力- 用EC2 Ubuntu Docker 部署 Asp.Net Core 网站'
+title: 用 EC2 Ubuntu Docker 部署 Asp.Net Core 网站'
 excerpt: "明天就国庆节了。<br/><img src='https://s21.ax1x.com/2024/09/30/pA3ShZR.md.png'>"
 date: 2024-09-30
 permalink: /posts/2024/09/blog-post-mianfei xueshu blog EC2 Ubuntu Docker/
@@ -49,7 +49,7 @@ sudo sh get-docker.sh
 ======
 这可是重头戏，要费些功夫。
 
-
+                         
 1.制作镜像
 在要发布的网站文件根目录下新建 Dockerfile 文件，内容如下：
 
@@ -125,7 +125,7 @@ docker tag 7a8c8ffd35dc lygwys/gyxjsfzzx:v3.1
 在 ec2 ubuntu 24.04 的 docker 中运行镜像:
 
 ``````
-docker run -d -p 8001:80 --name jsfzzx  lygwys/gyxjsfzzx:v3.1
+docker run -d -p 8001:80   --restart always  --name jsfzzx  lygwys/gyxjsfzzx:v3.1
 ``````
 
 
