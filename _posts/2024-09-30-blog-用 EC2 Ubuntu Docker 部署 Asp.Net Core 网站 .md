@@ -139,8 +139,14 @@ docker run -d -p 8001:80   --restart always  --name jsfzzx  lygwys/gyxjsfzzx:v3.
 [![pA3ShZR.md.png](https://s21.ax1x.com/2024/09/30/pA3ShZR.md.png)](https://imgse.com/i/pA3ShZR)
 
 
+持久化运行
+======
+``````
+docker run -d -p 89:80 -v /E/DockerContainersDatas/gyxjsfzzx/App_Data:/app/App_Data -v  /E/DockerContainersDatas/gyxjsfzzx/UpLoad:/app/wwwroot/UpLoad --name cms89 lygwys/gyxjsfzzx:v3.1
+``````
+
+
 坑
 ======
 * EC2 无法拉取镜像，文中说了解决办法；
 * 早期程序使用 .net 3.0,Ubuntu 24.04不支持，这就是为什么用 Docker 部署的原因，当然也可使用 UBuntu 的低版本来兼容；
-* 我想将 SQLite 数据库挂载到宿主机上，以实现数据存档，但当新建一个容器重新运行时仍然不加载外部数据，网上查了资料，需要在镜像生成之前在程序文件中添加条件判断，没有试验。
