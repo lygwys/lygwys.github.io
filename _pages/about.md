@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-此博客由[ academicpages](https://github.com/academicpages/academicpages.github.io) 提供支持并托管在 GitHub Pages 服务上。
+此博客由[academicpages](https://github.com/academicpages/academicpages.github.io) 提供支持并托管在 GitHub Pages 服务上。
 
 
 栏目说明
