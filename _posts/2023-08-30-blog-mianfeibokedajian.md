@@ -26,5 +26,19 @@ tags:
 4. 等一会儿就能在 url 看到东西了，是默认的一些页面
 5. 可以根据 guide，去 _data/navigation.yml 设置顶部菜单，并且对每个栏目的内容进行修改
 
+本地运行
+======
+1. 所需软件及版本参考
+- Ruby 3.1.2-1
+###### [下载 Ruby+Devkit 3.1.2-1](https://rubyinstaller.org/downloads/archives/)
+可以自定义安装路径，最后的界面键入“3”回车以继续完成剩余的安装
+- gem install bundler -v 2.5.8
+- gem install jekyll -v 4.3.3
+2. cmd 进入博客目录
+3. 安装依赖 bundle install
+4. 本地运行 bundle exec jekyll serve
+###### 如果运行不成功，可删除 Gemfile.lock 文件，重新运行 bundle install
+5. 访问地址 [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+
 
 这儿有一篇[可能是最全面的 github pages 搭建个人博客教程](https://lemonchann.github.io/create_blog_with_github_pages/)，推荐阅读。
