@@ -23,10 +23,10 @@ redirect_from:
 
 | 项目名称 | 项目库 | 项目介绍 |
 |:--------|:-------:|--------:|
-| 学术型博客   | [github](https://github.com/lygwys/lygwys.github.io)   | [详细](/posts/2023/08/blog-post-mianfei xueshu blog dajian/)   |
-|  教师发展中心网站  | [github](https://github.com/lygwys/ZKEACMS.3.1.8/tree/dev-lygwys-jsfzzx) |[纪念版](http://161.189.160.180:8001/index)   |
+| 学术型博客   | [github](https://github.com/lygwys/lygwys.github.io)   |开源 [详细](/posts/2023/08/blog-post-mianfei xueshu blog dajian/)   |
+|  教师发展中心网站  | [github](https://github.com/lygwys/ZKEACMS.3.1.8/tree/dev-lygwys-jsfzzx) |[纪念版](http://161.189.160.180:8001/index)   [容器版](http://www.gyjsfzzx.cn) |
 |-----------------------------|
-|   Notes .Net MAUI 应用 |  [github](https://github.com/lygwys/Notes)  |  [下载](https://github.com/lygwys/Notes/releases/) |
+|   记事本（Notes .Net MAUI 应用） |  [github](https://github.com/lygwys/Notes)  |开源  [下载](https://github.com/lygwys/Notes/releases/) |
 |    |    |    |
 |=============================|
 |    |    |    |
